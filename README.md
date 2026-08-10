@@ -1,2 +1,2 @@
 # Advanced-Routing-Principles-Labs
-Detailed Labs of important concepts for advanced routing
+Cisco routing labs and network design projects completed using Cisco CML.
