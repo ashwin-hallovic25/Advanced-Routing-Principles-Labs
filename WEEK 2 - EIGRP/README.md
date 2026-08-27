@@ -11,7 +11,7 @@ The lab uses four Cisco IOSv routers running EIGRP AS 100.
 
 R1 is used as the main observation point.
 
-![EIGRP Topology](screenshots/topology.png)
+![EIGRP Topology](Topology/Topology.png)
 
 ### Addressing
 
@@ -44,20 +44,20 @@ successors.
 
 ### R1 Routing Table
 
-![Baseline Routing Table](screenshots/baseline-routing-table.png)
+![Baseline Routing Table](Screenshots/baseline-routing-table.png)
 
 The routing table shows two equal-cost paths to `192.168.4.0/24`, both
 with an EIGRP metric of `131072`.
 
 ### EIGRP Neighbours
 
-![R1 EIGRP Neighbours](screenshots/r1-neighbors.png)
+![R1 EIGRP Neighbours](Screenshots/r1-neighbors.png)
 
 R1 has EIGRP neighbours at `10.0.12.2` and `10.0.13.2`.
 
 ### EIGRP Topology Table
 
-![Baseline EIGRP Topology](screenshots/baseline-eigrp-topology.png)
+![Baseline EIGRP Topology](Screenshots/baseline-eigrp-topology.png)
 
 For `192.168.4.0/24`, R1 initially has **2 successors** with a feasible
 distance of `131072`.
@@ -72,7 +72,7 @@ metric and route selection.
 ### Routing Table After the Change
 
 ![Routing Table After Bandwidth
-Change](screenshots/bandwidth-routing-table.png)
+Change](Screenshots/bandwidth-routing-table.png)
 
 After the bandwidth change, R1 installed only one route to
 `192.168.4.0/24` through `10.0.13.2`.
@@ -82,7 +82,7 @@ The path through R2 was no longer equal-cost.
 ### EIGRP Topology After the Change
 
 ![EIGRP Topology After Bandwidth
-Change](screenshots/bandwidth-eigrp-topology.png)
+Change](Screenshots/bandwidth-eigrp-topology.png)
 
 The EIGRP topology table now shows:
 
@@ -95,7 +95,7 @@ For the R4 Loopback network, the successor has a composite metric of
 
 ### R4 Loopback Investigation
 
-![R4 Loopback EIGRP Topology](screenshots/loopback-eigrp-topology.png)
+![R4 Loopback EIGRP Topology](Screenshots/loopback-eigrp-topology.png)
 
 The detailed topology entry shows the different metrics and vector
 values for the two available paths.
