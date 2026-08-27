@@ -71,8 +71,8 @@ metric and route selection.
 
 ### Routing Table After the Change
 
-![Routing Table After Bandwidth
-[Routing Table After Change](Screenshots/4.%20Routing%20Table%20after%20changing%20bandwidth.png)
+
+![Routing Table After Change](Screenshots/4.%20Routing%20Table%20after%20changing%20bandwidth.png)
 
 After the bandwidth change, R1 installed only one route to
 `192.168.4.0/24` through `10.0.13.2`.
