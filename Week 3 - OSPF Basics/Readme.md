@@ -16,7 +16,7 @@ The lab uses three OSPF routers on a shared multiaccess Ethernet segment.
 
 The shared Ethernet segment is used for OSPF neighbor formation and DR/BDR election.
 
-![OSPF topology](Topology/topology.png)
+![OSPF topology](Topology/Topology.png)
 
 
 ## 2. Objectives
