@@ -229,19 +229,5 @@ show ip ospf | include Reference
 - OSPF interface priority affects DR/BDR election.
 - Priority `0` prevents a router from becoming DR or BDR.
 
-## 11. Project Structure
 
-```text
-Repository
-│
-├── README.md
-│
-└── Screenshots
-    ├── 1. Enabling OSPF on interfaces through various methods.png
-    ├── 2. OSPF Verification - show ip protocols.png
-    ├── 3. OSPF Verification - show ip ospf interface brief.png
-    ├── ...
-    └── 15. DR - BDR - Making R1 as DR.png
-```
-
-
+![OSPF activation methods](Screenshots/1.%20Enabling%20OSPF%20on%20interfaces%20through%20various%20methods.png)
