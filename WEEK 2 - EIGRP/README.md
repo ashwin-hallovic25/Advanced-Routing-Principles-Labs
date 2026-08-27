@@ -94,7 +94,7 @@ For the R4 Loopback network, the successor has a composite metric of
 
 ### R4 Loopback Investigation
 
-![EIGRP Topology for Loopback](Screenshots/6.%20EIGRP%20Topology%20for%20Loopback.png)
+![EIGRP Topology for Loopback](Screenshots/6.%20EIGRP%20Topology%20for%20Loopback%20interface%20of%20R4.png)
 
 The detailed topology entry shows the different metrics and vector
 values for the two available paths.
