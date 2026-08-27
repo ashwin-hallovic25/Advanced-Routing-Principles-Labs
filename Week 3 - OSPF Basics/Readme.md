@@ -244,6 +244,4 @@ Repository
     └── 15. DR - BDR - Making R1 as DR.png
 ```
 
-![OSPF activation methods](Screenshots/1.%20Enabling%20OSPF%20on%20interfaces%20through%20various%20methods.png)
 
-**Important:** The screenshot filenames in the Markdown above must match the filenames in the `Screenshots` folder exactly.
